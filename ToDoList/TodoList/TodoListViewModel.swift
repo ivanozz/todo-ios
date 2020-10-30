@@ -16,7 +16,7 @@ protocol TodoListViewModelProtocol {
 }
 
 final class TodoListViewModel: ObservableObject {
-    @Published var todos = [Todo]()
+    @Published var todos: [Todo] = [Todo]()
     @Published var showCompleted = false {
         didSet {
             fetchTodos()

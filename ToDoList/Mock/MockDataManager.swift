@@ -8,7 +8,7 @@
 import Foundation
 
 class MockDataManager {
-    private var todos = [Todo]()
+    private var todos: [Todo] = [Todo]()
     
     init() {
         todos = [
