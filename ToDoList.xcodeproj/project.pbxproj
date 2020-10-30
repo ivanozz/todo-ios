@@ -24,6 +24,7 @@
 		84BAF208254ADE4A0029C157 /* TodoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAF207254ADE4A0029C157 /* TodoRow.swift */; };
 		84D551BB254BD69D00D116FD /* DBHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DDC9B4254AF12F00513DC3 /* DBHelper.framework */; };
 		84D551BC254BD69D00D116FD /* DBHelper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84DDC9B4254AF12F00513DC3 /* DBHelper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84D551BF254BD9FA00D116FD /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 84D551BE254BD9FA00D116FD /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +59,7 @@
 		84BAF1FE254AC7020029C157 /* NewTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTodoView.swift; sourceTree = "<group>"; };
 		84BAF201254ACC2C0029C157 /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
 		84BAF207254ADE4A0029C157 /* TodoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRow.swift; sourceTree = "<group>"; };
+		84D551BE254BD9FA00D116FD /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		84DDC9B4254AF12F00513DC3 /* DBHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DBHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -106,6 +108,7 @@
 				84BAF1D4254AA4380029C157 /* LaunchScreen.storyboard */,
 				84BAF1D7254AA4380029C157 /* Info.plist */,
 				84BAF1D1254AA4380029C157 /* Preview Content */,
+				84D551BE254BD9FA00D116FD /* Readme.md */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			files = (
 				84BAF1D6254AA4380029C157 /* LaunchScreen.storyboard in Resources */,
 				84BAF1D3254AA4380029C157 /* Preview Assets.xcassets in Resources */,
+				84D551BF254BD9FA00D116FD /* Readme.md in Resources */,
 				84BAF1D0254AA4380029C157 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
